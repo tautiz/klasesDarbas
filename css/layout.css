@@ -1,0 +1,61 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wraper {
+    background-color: white;
+    height: 100%;
+    width: 1200px;
+    display: grid;
+    grid-template-areas:
+        'h h h h'
+        't t a a'
+        'f f f f'
+    ;
+    grid-gap: 10px;
+    /*grid-template-rows: 50px auto 100px;*/
+    /*grid-template-columns: auto auto 300px;*/
+}
+body > .reklama {
+    float: left;
+    height: 100%;
+    width: 200px;
+}
+.wraper  > header {
+    grid-area: h;
+}
+.wraper  > footer {
+    grid-area: f;
+}
+.wraper  > aside {
+    grid-area: a;
+}
+.wraper  > main {
+    grid-area: t;
+}
+
+header {
+    display: grid;
+    grid-template-areas:
+            'l s s'
+            'l n n';
+}
+header .logo {
+    grid-area: l;
+}
+header .slogan {
+    grid-area: s;
+}
+header nav {
+    grid-area: n;
+}
