@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Puslapio pavadinimas zdlkfgjaldrkj</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/stilius.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/rwd.css">
+</head>
+<body>
+<div class="wraper">
+    <header>
+        <div class="logo"><img src="" alt="LOGO"></div>
+        <div class="slogan">Mano sukis 2022->2023</div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Pradzia</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="kontaktai.html">Kontaktai</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="http://localhost/kursiustiduomenis.php" method="GET">
+            <label for="fn">Vardas</label>
+            <input name="firstname" type="text" id="fn" />
+            <br>
+
+            <label for="qtype">Klausimo tipas</label>
+            <select name="q_type" id="qtype">
+                <option value="ats1">Del darbu</option>
+                <option value="ats2">Del finansu</option>
+                <option value="ats3">Del nauju uzsakymu</option>
+            </select>
+            <br>
+
+            <label for="zinute">Tavo Zinute man</label>
+            <br>
+            <textarea name="message" rows="10" cols="30" id="zinute">
+                The cat was playing in the garden.
+            </textarea>
+            <hr>
+
+            <button type="button" onclick="alert('Hello World!')">Labas!</button>
+            <br>
+
+            <input value="Siųsti" type="submit" />
+        </form>
+    </main>
+    <aside>
+        <div class="reklama">1 reklama</div>
+        <div class="reklama">2 reklama</div>
+        <div class="reklama">3 reklama</div>
+    </aside>
+    <footer>
+        Visos teisės saugomos &copy; 2022
+    </footer>
+</div>
+</body>
+</html>
