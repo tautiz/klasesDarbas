@@ -1,6 +1,7 @@
 :root {
-    --main-primary-color: #363333;
-    --main-primary-text-color: #383838;
-    --main-secondary-color: gray;
-    --main-secondary-text-color: white;
+    --main-primary-color: green;
+    --main-primary-text-color: #de0c0c;
+    --main-secondary-color: #2d62c7;
+    --main-secondary-text-color: #ce24e0;
+    --wraper-with: 1400px;
 }

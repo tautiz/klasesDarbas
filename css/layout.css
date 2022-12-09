@@ -3,7 +3,6 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: blue;
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 .wraper {
     background-color: white;
     height: 100%;
-    width: 1200px;
+    width: var(--wraper-with);
     display: grid;
     grid-template-areas:
         'h h h h'
@@ -23,8 +22,6 @@ body {
         'f f f f'
     ;
     grid-gap: 10px;
-    /*grid-template-rows: 50px auto 100px;*/
-    /*grid-template-columns: auto auto 300px;*/
 }
 body > .reklama {
     float: left;

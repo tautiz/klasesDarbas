@@ -2,6 +2,7 @@ body {
     font-family: "Roboto Light", SansSerif, "DejaVu Sans";
     font-size: 1.5em;
     font-weight: normal;
+    background-color: var(--main-secondary-text-color);
 }
 
 .foto {
