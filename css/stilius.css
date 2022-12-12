@@ -12,7 +12,7 @@ body {
 }
 
 main > img {
-    width: 400px;
+    width: var(--foto-plotis);
 }
 
 td > img {
@@ -91,3 +91,8 @@ body aside {
 body main {
     padding-left: 10px;
 }
+
+.raudonas_fonas { background-color: red;}
+.didelis_tekstas { font-size: 15px}
+.remelis {border: 1px solid red;}
+.active {opacity: 0.75}

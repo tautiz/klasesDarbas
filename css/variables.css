@@ -4,4 +4,9 @@
     --main-secondary-color: #2d62c7;
     --main-secondary-text-color: #ce24e0;
     --wraper-with: 1400px;
+    --foto-plotis: 200px;
+}
+
+.var {
+    --foto-plotis: 400px;
 }
