@@ -4,15 +4,9 @@ console.log('Kintamojo a reikšmė: ' + a);
 a = 2;
 console.log('Kintamojo a reikšmė: ' + a);
 
-
-
-
 // Antroji užduotis
 let vardasPavarde = 'Tautvydas Dulskis';
 console.log('Mano vardas ir pavardė: ' + vardasPavarde);
-
-
-
 
 // Trečioji užduotis
 let metai = 1782;
