@@ -25,3 +25,25 @@ for (let i = 0; i < arr1.length; i++) {
         //..
     }
 }
+
+
+
+let zenklas = "*";
+
+switch (zenklas) {
+    case "+":
+        add(/* ... */);
+        break;
+    case "-":
+        sub(/* ... */);
+        break;
+    case "*":
+        mult(/* ... */);
+        break;
+    case "/":
+        div(/* ... */);
+        break;
+    default:
+        console.log("Nepavyko");
+        break;
+}
